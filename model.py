@@ -5,6 +5,9 @@ import tensorflow.keras.layers as L
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import *
 from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.applications import DenseNet121
+!pip install tensorflow-wavelets
+import tensorflow_wavelets.Layers.DWT as DWT
 
 class InstanceNormalization(tf.keras.layers.Layer):
     def __init__(self, epsilon=1e-5):
