@@ -4,7 +4,7 @@ import keras.backend as K
 import tensorflow.keras.layers as L
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import *
-from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.optimizers import AdamW
 from tensorflow.keras.applications import DenseNet121
 !pip install tensorflow-wavelets
 import tensorflow_wavelets.Layers.DWT as DWT
@@ -156,6 +156,6 @@ def build_densenet121_unet(input_shape):
     return model
     
 teacher_model = build_densenet121_unet((512, 512, 3))
-optimizer = Adam(lr=0.0001)
+optimizer = AdamW(lr=0.0001)
 teacher_model.compile(loss=combined_loss, metrics=["accuracy", dice_score, recall, precision, iou], optimizer=optimizer)
 teacher_model.summary()
