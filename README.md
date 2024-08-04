@@ -1,5 +1,5 @@
 # AWGUNet: Attention-aided Wavelet Guided U-net for nuclei segmentation in histopathology images
-This is the official implementation  of "AWGUNet: Attention-aided Wavelet Guided U-net for nuclei segmentation in histopathology images" (ISBI, 2024).
+This is the official implementation  of "AWGUNet: Attention-aided Wavelet Guided U-net for nuclei segmentation in histopathology images" (ISBI 2024).
 
 ### Overall workflow:
 ![architecture](https://github.com/AyushRoy2001/AWGUNET/assets/94052139/396dbafe-d0fc-4bd4-b360-433ce8126cab)
