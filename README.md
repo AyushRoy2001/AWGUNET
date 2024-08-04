@@ -1,5 +1,5 @@
 # AWGUNet: Attention-aided Wavelet Guided U-net for nuclei segmentation in histopathology images
-This is the official implementation  of "AWGUNet: Attention-aided Wavelet Guided U-net for nuclei segmentation in histopathology images" (ISBI, 2024)
+This is the official implementation  of "AWGUNet: Attention-aided Wavelet Guided U-net for nuclei segmentation in histopathology images" (ISBI, 2024).
 
 ### Overall workflow:
 ![architecture](https://github.com/AyushRoy2001/AWGUNET/assets/94052139/396dbafe-d0fc-4bd4-b360-433ce8126cab)
@@ -10,11 +10,6 @@ This is the official implementation  of "AWGUNet: Attention-aided Wavelet Guided
 ##  The Decoder module:
 ![updec](https://github.com/AyushRoy2001/AWGUNET/assets/94052139/e13707bb-3a3b-478a-8d1d-1bf1855eda47)
 
-## How to use
--Fork the repository.<br/>
--Download the TNBC and MoNuSeG datasets.<br/>
--Run the jupyter notebook to train the model and generate results. Make sure to change the paths according to your requirement.<br/>
-
 ## Results
 ### TNBC
 ![output_TNBC](https://github.com/AyushRoy2001/AWGUNET/assets/94052139/9a9cfa1a-f783-4b4f-8179-81baceb23656)
@@ -22,14 +17,13 @@ This is the official implementation  of "AWGUNet: Attention-aided Wavelet Guided
 ### MoNuSeG
 ![output_monu](https://github.com/AyushRoy2001/AWGUNET/assets/94052139/d3bfc78a-201e-4869-9766-b34291ea1b80)
 
-## Authors :nerd_face:*
+## Authors :nerd_face:
 Ayush Roy<br/>
 Payel Pramanik, Ram Sarkar<br/>
 Dmitrii Kaplun, Sergei Antonov<br/>
 
-## Citation :thinking:*
+## Citation :thinking:
 Please do cite our paper in case you find it useful for your research.<br/>
-Citation-<br/>
+```
 
-<br/>
--Link to our paper-<br/>
+```
