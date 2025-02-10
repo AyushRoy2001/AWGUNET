@@ -25,5 +25,10 @@ Dmitrii Kaplun, Sergei Antonov<br/>
 ## Citation :thinking:
 Please do cite our paper in case you find it useful for your research.<br/>
 ```
-
+@article{roy2024awgunet,
+  title={AWGUNET: Attention-Aided Wavelet Guided U-Net for Nuclei Segmentation in Histopathology Images},
+  author={Roy, Ayush and Pramanik, Payel and Kaplun, Dmitrii and Antonov, Sergei and Sarkar, Ram},
+  journal={arXiv preprint arXiv:2406.08425},
+  year={2024}
+}
 ```
